@@ -31,11 +31,21 @@ const config: WebpackConfig = {
           },
         ],
       },
+      {
+        test: /\.(svg|png|jpg|gif)$/i,
+        type: 'asset',
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve('public', 'index.html'),
+    }),
+    new webpack.ProvidePlugin({
+      process: 'process/browser',
+    }),
+    new webpack.EnvironmentPlugin({
+      PUBLIC_URL: path.resolve('public'),
     }),
     new ForkTsCheckerWebpackPlugin({
       typescript: {
