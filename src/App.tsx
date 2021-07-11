@@ -1,9 +1,5 @@
-interface Props {
-  hi: string;
-}
-
-const App = ({ hi }: Props) => {
-  return <h1>{hi}</h1>;
+const App = () => {
+  return <h1>ts-react-webpack-boilerplate</h1>;
 };
 
 export default App;
