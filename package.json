@@ -1,9 +1,9 @@
 {
-  "name": "tyf-client",
+  "name": "ts-react-webpack-boilerplate",
   "version": "0.0.1",
-  "description": "thank you for __ 의 클라이언트 앱",
+  "description": "타입스크립트 + 리액트 + styled component + storybook + eslint + recoil 보일러 플레이트입니다",
   "main": "index.js",
-  "repository": "https://github.com/woowacourse-teams/2021-tyf",
+  "repository": "https://github.com/hchayan/ts-react-webpack-boilerplate",
   "contributors": [
     {
       "name": "hchayan",
